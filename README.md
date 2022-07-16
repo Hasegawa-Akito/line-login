@@ -6,3 +6,7 @@ stateの値をランダムに設定しreduxでローカルに保持
 4. 認証成功時にコールバックURLの画面へ遷移
 5. URLにあるqueryのstateの値と2で保持したローカルのstateを比較
 6. 5の結果がtrueならログイン成功画面へ, falseなら失敗画面へ
+
+
+ローカルサーバーはHTTPS=true npm startで起動時。
+->コールバックURLの設定でhttpsのみ有効だから
